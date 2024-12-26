@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Happy Birthday, Dad!</h1>
+    <p>Scroll down to see the surprise!</p>
+  </section>
+
+  <!-- Collage Section -->
+  <section class="collage">
+    <!-- Happy -->
+    <div class="row">
+      <div class="letter" data-scroll="true" style="--letter: 'H';">
+        <img src="images/im1.jpg" alt="Collage Image">
+      </div>
+      <div class="letter" data-scroll="true" style="--letter: 'A';">
+        <img src="images/im2.jpg" alt="Collage Image">
+      </div>
+      <div class="letter" data-scroll="true" style="--letter: 'P';">
+        <img src="images/im3.jpg" alt="Collage Image">
+      </div>
+      <div class="letter" data-scroll="true" style="--letter: 'P';">
+        <img src="images/im4.jpg" alt="Collage Image">
+      </div>
+      <div class="letter" data-scroll="true" style="--letter: 'Y';">
+        <img src="images/im5.jpg" alt="Collage Image">
+      </div>
+    </div>
+
+    <!-- Birthday -->
+    <div class="row">
+      <div class="letter" data-scroll="true" style="--letter: 'B';">
+        <img src="images/im6.jpg" alt="Collage Image">
+      </div>
+      <div class="letter" data-scroll="true" style="--letter: 'I';">
+        <img src="images/im7.jpg" alt="Collage Image">
+      </div>
+      <div class="letter" data-scroll="true" style="--letter: 'R';">
+        <img src="images/im8.jpg" alt="Collage Image">
+      </div>
+      <div class="letter" data-scroll="true" style="--letter: 'T';">
+        <img src="images/im9.jpg" alt="Collage Image">
+      </div>
+      <div class="letter" data-scroll="true" style="--letter: 'H';">
+        <img src="images/im10.jpg" alt="Collage Image">
+      </div>
+      <div class="letter" data-scroll="true" style="--letter: 'D';">
+        <img src="images/im11.jpg" alt="Collage Image">
+      </div>
+      <div class="letter" data-scroll="true" style="--letter: 'A';">
+        <img src="images/im12.jpg" alt="Collage Image">
+      </div>
+      <div class="letter" data-scroll="true" style="--letter: 'Y';">
+        <img src="images/im13.jpg" alt="Collage Image">
+      </div>
+    </div>
+  </section>
+
+  <div id="lightbox" class="lightbox hidden">
+    <span class="close">&times;</span>
+    <img id="lightbox-img" src="#" alt="Lightbox Image">
+  </div>
+
+  <div id="timeline-container">
+    <div id="timeline">
+        <div class="year active" data-color="#ffcccc">
+            <a href="childhood.html">
+                <img src="images/Childhood/im5.jpg" alt="Childhood Image">
+                <p>Childhood</p>
+            </a>
+        </div>
+        <div class="year" data-color="#ccffcc">
+            <a href="marriage.html">
+                <img src="images/im1.jpg" alt="Marriage Image">
+                <p>Marriage</p>
+            </a>
+        </div>
+        <div class="year" data-color="#ccccff">
+            <a href="making-a-family.html">
+                <img src="images/Family/im2.jpg" alt="Making a Family Image">
+                <p>Making a Family</p>
+            </a>
+        </div>
+        <div class="year" data-color="#ffe0b3">
+            <a href="fatherhood.html">
+                <img src="images/Fatherhood/im3.jpg" alt="Fatherhood Image">
+                <p>Fatherhood</p>
+            </a>
+        </div>
+        <div class="year" data-color="#d9b3ff">
+            <a href="friendship.html">
+                <img src="images/Friendship/im4.jpg" alt="Friendship - SAMPRAAS Family Image">
+                <p>Friendship - SAMPRAAS Family</p>
+            </a>
+        </div>
+    </div>
+    <div class="arrows">
+        <div class="arrow left-arrow" onclick="moveTimeline(-1)">&#8249;</div>
+        <div class="arrow right-arrow" onclick="moveTimeline(1)">&#8250;</div>
+    </div>
+</div>
+<section class="starry-surprise">
+    <p>Want to see something special? <a href="constellation.html">Starry Surprise</a></p>
+  </section>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
